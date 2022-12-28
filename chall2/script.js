@@ -123,7 +123,7 @@ window.addEventListener('load', async () => {
      * @experimental Added in 0.0.2
      */
     window.addEventListener( 'message', (e) => {
-        //if ( !e.origin.endsWith('jsapi.tech') ) return;
+        if ( !e.origin.endsWith('jsapi.tech') ) return;
         const data = e.data;
         if ( typeof data !== 'object' && typeof data.op !== 'string' && typeof data.payload !== 'string' ) return;
         if ( data.op === 'preview' ) {
